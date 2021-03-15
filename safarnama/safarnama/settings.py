@@ -120,6 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIR = [
-    os.path.join(BASE_DIR, '/static/', 'static')
+    os.path.join(BASE_DIR, 'safarnama/static')
     ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
